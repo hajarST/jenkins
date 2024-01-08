@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class HelloController {
     @GetMapping
     public String hello(){
-        return "*** Hello from emsi New TEST  ***:)";
+        return "*** Hello from emsi 2024 New TEST  ***:)";
     }
 
     @GetMapping("/user")
